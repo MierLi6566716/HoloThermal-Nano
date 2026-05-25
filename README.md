@@ -11,3 +11,21 @@ A thermal-aware thread scheduling and edge-cloud partitioning framework for   ho
 *   **Edge-Cloud Partitioning:** A mid-layer partitioning strategy for the
       ResNet-18 + DPRC pipeline that offloads compute-intensive holographic generation
       to a cloud co-processor.
+
+## 📊 Results
+*   **Peak Temperature Reduction:** 3.0°C reduction vs. unmanaged concurrent
+      baseline.
+*   **Average Temperature Reduction:** 4.14°C reduction.
+*   **Quality Preservation:** Maintains 0.94 SSIM (Structural Similarity) by
+      preventing thermal-throttle-induced compute degradation.
+    
+## 🛠️ Built With
+*   **Hardware:** NVIDIA Jetson Nano (ARM Cortex-A57)
+*   **Frameworks:** PyTorch, Torchvision, Timm
+*   **Languages:** Python (3.6+), Shell
+*   **Control Techniques:** CPU Affinity (taskset), Thermal Slope Control,
+      Multi-Arm Bandit Optimization.
+
+## 📂 Project Structure
+*   `/ICCD_2026`: Main benchmark framework and scheduling logic.
+*   `/DPRC_original`: Neural Phase Retrieval and Compression source code.
