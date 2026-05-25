@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4 python train.py --vis --batch_size 1 --lr 1e-4 --channel r --prop_dist 20 --pixel_pitch 6.4 --compress --proj_dir ../running --pretrain_path ../running/DPRC/model_stage1/ckpt_epoch30.pth

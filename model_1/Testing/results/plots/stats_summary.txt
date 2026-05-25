@@ -1,0 +1,33 @@
+==================================================
+THERMAL RUN STATISTICS SUMMARY
+==================================================
+
+Scheme:           baseline
+Average Temp:     36.56 C
+Peak Temp:        40.00 C
+Run Time:         99.30 s
+--------------------------------------------------
+
+Scheme:           concurrent
+Average Temp:     37.26 C
+Peak Temp:        41.00 C
+Run Time:         100.63 s
+--------------------------------------------------
+
+Scheme:           loople
+Average Temp:     34.48 C
+Peak Temp:        38.00 C
+Run Time:         98.61 s
+--------------------------------------------------
+
+Scheme:           predictive_headroom
+Average Temp:     33.32 C
+Peak Temp:        38.00 C
+Run Time:         278.21 s
+--------------------------------------------------
+
+Scheme:           sequential
+Average Temp:     33.67 C
+Peak Temp:        36.00 C
+Run Time:         383.76 s
+--------------------------------------------------
