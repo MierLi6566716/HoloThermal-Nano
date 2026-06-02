@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=4 python train.py --vis --batch_size 1 --lr 1e-4 --channel r --prop_dist 20 --pixel_pitch 6.4 --compress --proj_dir ../test_r_transformer_encoder_larger --pretrain_path /tmp/mufan/huaizhi/DPRC/test_r_transformer_encoder_larger/DPRC/model_stage1/ckpt_epoch30.pth

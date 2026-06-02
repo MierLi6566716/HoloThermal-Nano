@@ -1,0 +1,4 @@
+scheme=baseline, stress=dprc_stress, start_temp_c=34.00, baseline_temp_c=34.00, peak_temp_c=38.00, average_temp_c=35.33, elapsed_s=30.09
+scheme=baseline, stress=dprc_stress, start_temp_c=34.50, baseline_temp_c=34.50, peak_temp_c=39.50, average_temp_c=36.05, elapsed_s=23.65
+scheme=baseline, stress=dprc_stress, start_temp_c=35.00, baseline_temp_c=35.00, peak_temp_c=57.50, average_temp_c=49.47, elapsed_s=883.12
+scheme=baseline, stress=dprc_stress, start_temp_c=42.50, baseline_temp_c=42.50, peak_temp_c=61.00, average_temp_c=53.89, average_p_mw=5238.61, total_energy_j=4848.17, elapsed_s=925.47

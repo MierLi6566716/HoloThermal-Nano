@@ -1,0 +1,12 @@
+# Core dependencies for ICCD_2026 and DPRC
+numpy==1.19.5
+scipy==1.5.4
+matplotlib==3.3.4
+pandas==1.1.5
+Pillow==8.4.0
+scikit-image==0.17.2
+tqdm==4.50.2
+tensorboardx==2.1
+pytorch_msssim==1.0.0
+timm==0.4.12
+# Note: torch and torchvision should be installed via NVIDIA wheels on Jetson
